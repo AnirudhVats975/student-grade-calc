@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart page</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <script src="https://kit.fontawesome.com/yourcode.js"></script>
+     <script src="https://kit.fontawesome.com/98385e5ad4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-content-center">
+        <div class="card mb-3 card_style shadow">
+          <div class="row no-gutters">
+            <div class="col-md-6"  >
+               
+              <div  class="left_heading">
+              <h2 class=>STUDENT</h2>
+               <h2>GRADE</h2>
+               <h2>CALCY</h2>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <form onsubmit="return false" >
+                  <div class="form-group">
+                    <input type="number" value="" class="mt-5" id="web_programming" placeholder="WEB PROGRAMMING" name ="web_programming" autocomplete="off"   >
+                    <br> 
+                   
+
+                    <input type="number" value="" class="mt-4" id="maths" placeholder="MATHS" name ="maths" autocomplete="off">
+                    <span id="maths_error"></span>
+                    <input type="number" value="" class="mt-4" id="computer" placeholder="COMPUTER" name ="computer" autocomplete="off">
+                    <span id="computer_error"></span>
+                    <input type="number" value="" class="mt-4" id="physics" placeholder="PHYSICS" name ="physicss" autocomplete="off">
+                    <span id="physics_error"></span>
+                  </div>
+                 
+                  <button type="submit" class="btn button" onclick="btnResult()">SHOW PERSENTAGE</button>
+                  
+                  </div>
+                </form>
+              </div>
+            </div>
+          
+       <div class="row">
+         <div class="col-12 d-flex align-content-center justify-content-center">
+          <div class="col-12">
+          <div class="result_sec">
+             <p id="show_result"></p>
+
+           </div>
+          
+         </div>
+       </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/propper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    
+    
+
+</body>
+</html>
